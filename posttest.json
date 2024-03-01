@@ -1,0 +1,73 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the significance of the average waiting time in evaluating the performance of a GI/M/c/N queueing system?",
+      "answers": {
+        "a": "It measures the average time a customer spends in the queue.",
+        "b": "It represents the maximum waiting time experienced by any customer in the system.",
+        "c": "It indicates the average time a server spends idle between serving customers.",
+        "d": "It measures the variability in waiting times across different customers in the system."
+      },
+      "explanations": {
+        "a": "Correct. The average waiting time reflects the overall time customers spend in the queue, before entering into the service.",
+        "b": "Incorrect. The average waiting time focuses on the average rather than the maximum waiting time.",
+        "c": "Incorrect. The average waiting time is not related to the idle time of servers.",
+        "d": "Incorrect. The average waiting time does not measure variability but rather the average duration of waiting."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why is the utilization of servers an essential performance measure in a GI/M/c/N queueing system?",
+      "answers": {
+        "a": "High server utilization ensures shorter waiting times for customers.",
+        "b": "Server utilization directly correlates with system stability.",
+        "c": "Low server utilization indicates efficient use of resources.",
+        "d": "Server utilization reflects the fraction of time servers are busy serving customers."
+      },
+      "explanations": {
+        "a": "Incorrect. High server utilization may lead to longer waiting times if the system becomes congested.",
+        "b": "Incorrect. While server utilization impacts system performance, it does not directly correlate with system stability.",
+        "c": "Incorrect. Low server utilization may indicate underutilization of resources rather than efficiency.",
+        "d": "Correct. Server utilization measures the fraction of time servers are busy serving customers, making it essential for assessing resource efficiency and system performance."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What does the queue length represent as a performance measure in a GI/M/c/N queueing system?",
+      "answers": {
+        "a": "The average number of customers in the system waiting to be served.",
+        "b": "The maximum number of customers the system can accommodate simultaneously.",
+        "c": "The variability in waiting times experienced by different customers.",
+        "d": "The fraction of time servers are busy serving customers."
+      },
+      "explanations": {
+        "a": "Correct. The queue length indicates the average number of customers waiting in line to be served, providing insights into system congestion and performance.",
+        "b": "Incorrect. The queue length refers to the number of customers waiting in line, not the maximum capacity of the system.",
+        "c": "Incorrect. The queue length measures the number of customers waiting, not the variability in waiting times.",
+        "d": "Incorrect. Server utilization, not the queue length, reflects the fraction of time servers are busy serving customers."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why is the system throughput considered a critical performance measure in the GI/M/c/N queueing system?",
+      "answers": {
+        "a": "It measures the average service time experienced by customers in the system.",
+        "b": "System throughput directly correlates with server utilization.",
+        "c": "High system throughput ensures efficient resource utilization and customer service.",
+        "d": "System throughput indicates the maximum number of customers the system can serve simultaneously."
+      },
+      "explanations": {
+        "a": "Incorrect. System throughput measures the rate at which the system processes customers, not their individual service times.",
+        "b": "Incorrect. While system throughput and server utilization are related, they are distinct performance measures.",
+        "c": "Correct. System throughput reflects the rate at which the system processes customers, providing insights into resource utilization and overall system efficiency.",
+        "d": "Incorrect. System throughput measures the rate of customer processing, not the maximum system capacity."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    }
+  ]
+}

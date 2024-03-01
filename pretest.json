@@ -1,0 +1,73 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "In the GI/M/c/N queueing system, what does 'GI' represent?",
+      "answers": {
+        "a": "Geometric arrival process",
+        "b": "General probability distribution for service times",
+        "c": "Gaussian arrival pattern",
+        "d": "Green's function for queue analysis"
+      },
+      "explanations": {
+        "a": "Incorrect. 'GI' does not represent a geometric arrival process in the GI/M/c/N notation.",
+        "b": "Correct. In GI/M/c/N, 'GI' stands for a general probability distribution for arrival times, allowing for diverse arrival patterns.",
+        "c": "Incorrect. 'GI' does not represent a Gaussian arrival pattern.",
+        "d": "Incorrect. 'GI' does not refer to Green's function for queue analysis."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What does the '5' parameter signify in the GI/M/5/N queueing model?",
+      "answers": {
+        "a": "Average number of arrivals per unit time",
+        "b": "Maximum number of customers in the system",
+        "c": "Number of servers in the system",
+        "d": "Service rate of the server"
+      },
+      "explanations": {
+        "a": "Incorrect. The 'c' parameter does not represent the average number of arrivals per unit time.",
+        "b": "Incorrect. 'c' does not represent the maximum number of customers in the system; 'N' does.",
+        "c": "Correct. In the GI/M/c/N model, 'c' signifies the number of servers in the system serving customers concurrently.",
+        "d": "Incorrect. 'c' does not represent the service rate of the server."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+     "question": "What impact does increasing the number of servers 'c' have on the GI/M/c/N queueing system?",
+      "answers": {
+        "a": "Reduces the average waiting time",
+        "b": "Increases the probability of system overflow",
+        "c": "Enhances system stability",
+        "d": "Lowers the variability in service times"
+      },
+      "explanations": {
+        "a": "Correct. Increasing the number of servers 'c' typically reduces the average waiting time as more servers are available to serve customers concurrently.",
+        "b": "Incorrect. Increasing 'c' often decreases the probability of system overflow by providing more capacity to handle incoming arrivals.",
+        "c": "Incorrect. While increasing 'c' can contribute to stability in certain cases, it does not inherently enhance system stability.",
+        "d": "Incorrect. The number of servers 'c' does not directly affect the variability in service times; it primarily influences system capacity."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How does increasing the value of 'N' affect the behavior of the GI/M/c/N queueing system?",
+      "answers": {
+        "a": "Decreases the average waiting time",
+        "b": "Increases the probability of system overflow",
+        "c": "Reduces the number of servers",
+        "d": "Enhances system stability"
+      },
+      "explanations": {
+        "a": "Incorrect. Increasing 'N' may increase the average waiting time as more customers can be accommodated, leading to longer queues.",
+        "b": "Correct. Increasing 'N' increases the capacity of the system, potentially reducing the likelihood of overflow.",
+        "c": "Incorrect. Increasing 'N' does not affect the number of servers in the system.",
+        "d": "Incorrect. Increasing 'N' may or may not enhance system stability, depending on other factors."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    }
+  ]
+}
