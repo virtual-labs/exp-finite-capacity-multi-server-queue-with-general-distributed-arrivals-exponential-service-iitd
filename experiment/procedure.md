@@ -9,7 +9,7 @@ To perform the experiment accurately, follow these detailed steps sequentially:
    - These steps are crucial to accurately simulate the GI/M/c/N queueing model, where GI denotes a general independent arrival time distribution, M represents an exponential service time distribution, c is the number of servers, and N is the system capacity.
 
 2. **Stability Check:**
-   - Ensure that the mean arrival rate is less than the product of the mean service rate and the number of servers (\(\lambda < c \mu\)). This condition is essential for achieving a steady-state solution, where the system reaches equilibrium and metrics such as queue length and waiting time become stable over time.
+   - Ensure that the mean arrival rate is less than the product of the mean service rate and the number of servers. This condition is essential for achieving a steady-state solution, where the system reaches equilibrium and metrics such as queue length and waiting time become stable over time.
 
 3. **System Capacity Configuration:**
    - Set the maximum number of customers (N) that the system can handle, including those being served and those waiting in the queue. This parameter defines the capacity limit of the system and prevents overloading.
